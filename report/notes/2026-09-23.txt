@@ -1,0 +1,2 @@
+Ik heb gekozen voor postgresql omdat het meer datatypes heeft dan mysql.
+Ik heb gekozen voor postgresql 17 (een versie achter de main versie), omdat ik er zeker van wil zijn dat als ik andere systemen bij het project wil betrekken er geen compatibility issues komen.
