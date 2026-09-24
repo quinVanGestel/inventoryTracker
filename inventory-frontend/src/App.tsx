@@ -18,8 +18,10 @@ function App() {
         <div>
           <h1>Get Jiggy With It</h1>
           <p>
-            Edit <code>src/App.tsx</code> and save to test <code>HMR</code>
+            I'm feeling <code>so sigma</code> and save to test <code>HMR</code>
           </p>
+          <p>I've got a lovely lil paragraph going on here gang</p>
+          <p>I'm gonna inject something from the database here: </p>
         </div>
         <button
           type="button"
