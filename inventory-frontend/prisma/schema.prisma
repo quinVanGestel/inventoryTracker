@@ -23,8 +23,8 @@ model PantryItems {
   ahId           Int
   name           String
   description    String
-  purchaseDate   Date
-  expirationDate Date
+  purchaseDate   DateString
+  expirationDate DateString
 }
 
 model Pantry {
@@ -33,10 +33,10 @@ model Pantry {
   name                  String
   description           String
   amount                Int
-  expirationDateLowest  Date
-  expirationDateHighest Date
-  purchaseDateLowest    Date
-  purchaseDateHighest   Date
+  expirationDateLowest  DateString
+  expirationDateHighest DateString
+  purchaseDateLowest    DateString
+  purchaseDateHighest   DateString
 }
 
 model AlbertHeijnItems {

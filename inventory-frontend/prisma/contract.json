@@ -108,14 +108,14 @@
               "expirationDateHighest": {
                 "nullable": false,
                 "type": {
-                  "codecId": "pg/date-temporal@1",
+                  "codecId": "pg/date-string@1",
                   "kind": "scalar"
                 }
               },
               "expirationDateLowest": {
                 "nullable": false,
                 "type": {
-                  "codecId": "pg/date-temporal@1",
+                  "codecId": "pg/date-string@1",
                   "kind": "scalar"
                 }
               },
@@ -136,14 +136,14 @@
               "purchaseDateHighest": {
                 "nullable": false,
                 "type": {
-                  "codecId": "pg/date-temporal@1",
+                  "codecId": "pg/date-string@1",
                   "kind": "scalar"
                 }
               },
               "purchaseDateLowest": {
                 "nullable": false,
                 "type": {
-                  "codecId": "pg/date-temporal@1",
+                  "codecId": "pg/date-string@1",
                   "kind": "scalar"
                 }
               }
@@ -202,7 +202,7 @@
               "expirationDate": {
                 "nullable": false,
                 "type": {
-                  "codecId": "pg/date-temporal@1",
+                  "codecId": "pg/date-string@1",
                   "kind": "scalar"
                 }
               },
@@ -223,7 +223,7 @@
               "purchaseDate": {
                 "nullable": false,
                 "type": {
-                  "codecId": "pg/date-temporal@1",
+                  "codecId": "pg/date-string@1",
                   "kind": "scalar"
                 }
               }
@@ -322,12 +322,12 @@
                   "nullable": false
                 },
                 "expirationDateHighest": {
-                  "codecId": "pg/date-temporal@1",
+                  "codecId": "pg/date-string@1",
                   "nativeType": "date",
                   "nullable": false
                 },
                 "expirationDateLowest": {
-                  "codecId": "pg/date-temporal@1",
+                  "codecId": "pg/date-string@1",
                   "nativeType": "date",
                   "nullable": false
                 },
@@ -346,12 +346,12 @@
                   "nullable": false
                 },
                 "purchaseDateHighest": {
-                  "codecId": "pg/date-temporal@1",
+                  "codecId": "pg/date-string@1",
                   "nativeType": "date",
                   "nullable": false
                 },
                 "purchaseDateLowest": {
-                  "codecId": "pg/date-temporal@1",
+                  "codecId": "pg/date-string@1",
                   "nativeType": "date",
                   "nullable": false
                 }
@@ -378,7 +378,7 @@
                   "nullable": false
                 },
                 "expirationDate": {
-                  "codecId": "pg/date-temporal@1",
+                  "codecId": "pg/date-string@1",
                   "nativeType": "date",
                   "nullable": false
                 },
@@ -397,7 +397,7 @@
                   "nullable": false
                 },
                 "purchaseDate": {
-                  "codecId": "pg/date-temporal@1",
+                  "codecId": "pg/date-string@1",
                   "nativeType": "date",
                   "nullable": false
                 }
@@ -417,7 +417,7 @@
         "kind": "postgres-schema"
       }
     },
-    "storageHash": "78f947a8539ac979ebf9c405ca25d762551589b88316dd917d44bb8dbe3b97ed"
+    "storageHash": "4a626c73118f02428e096409c954a13576d3f12e5d199ec543d333a96217bfec"
   },
   "capabilities": {
     "postgres": {
