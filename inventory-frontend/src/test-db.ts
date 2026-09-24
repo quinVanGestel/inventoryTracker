@@ -1,5 +1,6 @@
 import 'dotenv/config';
 import { db } from '../prisma/db';
+import { testFunction } from './backend/test';
 
 async function main() {
   // 1. Insert a row into AlbertHeijnItems
@@ -10,7 +11,7 @@ async function main() {
     shelfLifeDays: 7,
   });
   console.log('Created item:', item);
-
+// db.orm.public.
   // 2. Insert a row into PantryItems
   // Note: Date fields expect Temporal.PlainDate (or use DateString in schema)
   const pantryItem = await db.orm.public.PantryItems.create({
@@ -31,3 +32,5 @@ async function main() {
 }
 
 main().catch(console.error);
+console.log("running testfunction hopefully");
+testFunction().catch(console.error);
